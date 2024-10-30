@@ -47,7 +47,6 @@ namespace oop_2024_10_30_a_strings.models
 
             };
 
-
             Console.WriteLine($"|{headers[0],-5}|{headers[1],-10}|{headers[2],-12}");
 
             for (int i = 0; i < data.GetLength(0); i++)
