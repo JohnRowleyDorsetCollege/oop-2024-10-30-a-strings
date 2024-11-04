@@ -18,17 +18,20 @@ namespace oop_2024_10_30_a_strings.models
         {
             string name = "Alice";
             string city = "Seattle";
-            string product = "Laptop";
-            double price = 999.99;
-            string product2 = "Piano";
-            double price2 = 777.77;
 
             Console.WriteLine($"{name}:{city}");
             Console.WriteLine($"{name.PadLeft(10)}");
             Console.WriteLine($"{city.PadLeft(10)}");
+         
             // right aligning, and filling out the spaces with an * 
             Console.WriteLine($"{name.PadLeft(10, '*')}");
             Console.WriteLine($"{city.PadLeft(10, '*')}");
+
+
+            string product = "Laptop";
+            double price = 999.99;
+            string product2 = "Piano";
+            double price2 = 777.77;
 
             // product, 15: aligns the product to the right with 15 chars
             // price, -10 aligns price to the left with width of 10 chars
@@ -51,7 +54,7 @@ namespace oop_2024_10_30_a_strings.models
 
             for (int i = 0; i < data.GetLength(0); i++)
             {
-                Console.WriteLine($"|{data[i,0],-5}|{data[i, 1],-10}|{data[i, 1],-12}");
+                Console.WriteLine($"|{data[i,0],-5}|{data[i, 1],-10}|{data[i, 2],-12}");
 
             }
 
