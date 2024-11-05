@@ -12,7 +12,7 @@ namespace oop_2024_10_30_a_strings.models
         {
             // Console.WriteLine("StringFormatDriver");
             FixedWidthFormatting();
-            FixedWidthWithHeader();
+          //  FixedWidthWithHeader();
         }
         public static void FixedWidthFormatting()
         {
@@ -22,8 +22,8 @@ namespace oop_2024_10_30_a_strings.models
             Console.WriteLine($"{name}:{city}");
             Console.WriteLine($"{name.PadLeft(10)}");
             Console.WriteLine($"{city.PadLeft(10)}");
-         
-            // right aligning, and filling out the spaces with an * 
+
+            //// right aligning, and filling out the spaces with an * 
             Console.WriteLine($"{name.PadLeft(10, '*')}");
             Console.WriteLine($"{city.PadLeft(10, '*')}");
 
